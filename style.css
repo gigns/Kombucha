@@ -1,0 +1,131 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+/* Start Header */
+
+#header .shopping-cart img{
+    height: 38px;
+}
+
+#header .navbar-brand img{
+    width: 100px;
+}
+
+#header .fonte-logo{
+    font-family: 'Permanent Marker', cursive;
+}
+
+#header .whatsapp-icon img{
+    width: 30px;
+}
+
+#header .social{
+    margin-left: 200px;
+}
+
+#header .social img{
+    width: 30px;
+    height: 30px;
+    margin-left: 20px;
+}
+
+#header .fonte-navbar{
+    font-size: 22px;
+}
+
+/* End Header */
+
+/* Start Carrossel */
+#carrossel .carousel-inner .carousel-item img{
+    background-position: center;
+    background-size: contain;
+    height: 500px;
+}
+
+/* End Carrossel */
+
+/* Start About */
+#about{
+    margin: 170px 0;
+}
+#about .what span{
+    font-family: 'Permanent Marker', cursive;
+    margin: 0 10px;
+    color: green;
+}
+
+#about p{
+    font-size: 20px;
+}
+
+#about .propriedades li{
+    list-style: none;
+}
+
+#about .propriedades li img{
+    padding-right: 10px;
+}
+
+#about .propriedades{
+    font-size: 26px;
+    text-indent: 20%;
+}
+
+#about .borda-propriedades{
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #ffb3b3;
+}
+/* End About */
+
+/* Start Assinaturas */
+
+#assinaturas{
+    background-color: #80ff80;
+}
+
+#assinaturas .plano:hover{
+    border-color: transparent;
+    margin-top: 1.5rem;
+    /*box-shadow: 0 0 18px 0 rgb(120, 216, 242 / 40%);*/
+}
+
+#assinaturas .plano{
+    border-radius: 20px;
+    transition: all .3s;
+    background-color: white;
+    box-shadow: 0 0 18px 0 rgb(120, 216, 242 / 40%);
+}
+
+#assinaturas .plano .list-group-item{
+    border-color: transparent;
+    padding-left: 44%;
+}
+
+/* End Assinaturas */
+
+/* Media Queries for MOBILE */
+
+@media only screen and (max-width: 600px){
+    #header .social a{
+        display: none;
+    }
+
+    #about{
+        margin: 50px 0;
+    }
+
+    #about article:nth-child(2), article:nth-child(3){
+        margin-top: 40px;
+    }
+
+    #about .propriedades{
+        text-indent: 0;
+    }
+}
+
+/* End Media Queria for Mobile */
